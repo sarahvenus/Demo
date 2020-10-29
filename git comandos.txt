@@ -1,0 +1,186 @@
+
+C:\Users\zcastaneda>cd/
+
+C:\>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E0E6-EE82
+
+ Directory of C:\
+
+01/02/2018  12:01 PM    <DIR>          app
+10/21/2020  09:05 PM    <DIR>          APRO
+12/28/2018  12:43 PM            14,772 apro.html
+03/08/2018  06:30 PM    <DIR>          bea
+10/03/2018  03:48 PM    <DIR>          Dell
+05/06/2020  02:49 PM    <DIR>          Downloads
+05/07/2020  03:20 PM    <DIR>          Intel
+12/02/2006  12:37 AM           904,704 msdia80.dll
+12/05/2018  09:20 AM    <DIR>          New folder
+10/14/2020  08:27 PM    <DIR>          New folder (2)
+03/08/2018  06:30 PM    <DIR>          Oracle
+01/02/2018  03:22 PM    <DIR>          Oracle Developer 11G
+07/10/2015  04:04 AM    <DIR>          PerfLogs
+10/07/2019  06:38 PM    <DIR>          Print
+10/21/2020  08:51 PM    <DIR>          Program Files
+10/14/2020  06:09 PM    <DIR>          Program Files (x86)
+07/09/2019  01:08 PM    <DIR>          Quarantine
+10/10/2018  05:15 PM    <DIR>          RICEW
+10/14/2020  01:33 PM    <DIR>          Users
+08/21/2020  01:10 PM    <DIR>          Windows
+               2 File(s)        919,476 bytes
+              18 Dir(s)  72,477,155,328 bytes free
+
+C:\>cd apro
+
+C:\APRO>cd test
+
+C:\APRO\Test>git init
+Initialized empty Git repository in C:/APRO/Test/.git/
+
+C:\APRO\Test>git init
+Reinitialized existing Git repository in C:/APRO/Test/.git/
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\APRO\Test>git init
+Reinitialized existing Git repository in C:/APRO/Test/.git/
+
+C:\APRO\Test>cat README.md
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\APRO\Test>cat README.md
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\APRO\Test>vi README.md
+'vi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\APRO\Test>cat README.txt
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\APRO\Test>git init
+Reinitialized existing Git repository in C:/APRO/Test/.git/
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\APRO\Test>cat README.md.txt
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\APRO\Test>git add README.md.txt
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md.txt
+
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+
+C:\APRO\Test>git add README.txt
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md.txt
+        new file:   README.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md.txt
+
+
+C:\APRO\Test>git rm README.md.txt
+rm 'README.md.txt'
+
+C:\APRO\Test>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+sa
+C:\APRO\Test>git commit -m "Update
+[master (root-commit) d7e37d9] Update
+ Committer: Castaneda <Zahara.Castaneda@poly.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+)
+ create mode 100644 README.txt
+
+C:\APRO\Test>git commit -m "Update"
+On branch master
+nothing to commit, working tree clean
+
+C:\APRO\Test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\APRO\Test>
