@@ -17,7 +17,11 @@ app.use(
 )
 
 app.get('/', (request, response) => {
+<<<<<<< HEAD
   response.json({ info: 'Node.js, Express, and Postgres APIZCV' })
+=======
+  response.json({ info: 'Node.js, Express, and Postgres APIw' })
+>>>>>>> 13839749ccee064007f57729e2bed824eed55f43
 })
 
 app.get('/users', db.getUsers)
